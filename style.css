@@ -1,0 +1,76 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #ff7043;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+/* Menu items */
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.menu-item h3 {
+    margin-bottom: 5px;
+}
+
+.menu-item p {
+    margin-bottom: 0;
+}
+
+/* Contact page */
+.contact-info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #ff7043;
+    color: white;
+    margin-top: 20px;
+}

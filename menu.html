@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Delicious Bites - Menu</title>
-<style>
-    body { font-family: Arial, sans-serif; margin: 0; }
-    header, footer { background: #c0392b; color: white; text-align: center; padding: 1em; }
-    nav a { color: white; margin: 0 10px; text-decoration: none; }
-    section { padding: 1em; }
-    .item { margin-bottom: 1em; border-bottom: 1px solid #ccc; padding-bottom: .5em; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - My Restaurant</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Our Menu</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-<header>
-    <h1>🍽 Delicious Bites</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+    <main>
+        <div class="menu-item">
+            <img src="images/pizza.jpg" alt="Pizza">
+            <div>
+                <h3>Margherita Pizza</h3>
+                <p>Price: ₹350</p>
+                <button>Order Now</button>
+            </div>
+        </div>
 
-<section>
-    <h2>Our Menu</h2>
-    <div class="item">
-        <h3>Pizza</h3>
-        <p>Freshly baked with mozzarella and basil - ₹299</p>
-    </div>
-    <div class="item">
-        <h3>Burger</h3>
-        <p>Italian Veg Burger with cheese - ₹199</p>
-    </div>
-    <div class="item">
-        <h3>Pasta</h3>
-        <p>Creamy Alfredo with garlic bread - ₹249</p>
-    </div>
-</section>
+        <div class="menu-item">
+            <img src="images/burger.jpg" alt="Burger">
+            <div>
+                <h3>Cheese Burger</h3>
+                <p>Price: ₹200</p>
+                <button>Order Now</button>
+            </div>
+        </div>
 
-<footer>
-    <p>© 2025 Delicious Bites</p>
-</footer>
+        <div class="menu-item">
+            <img src="images/pasta.jpg" alt="Pasta">
+            <div>
+                <h3>Italian Pasta</h3>
+                <p>Price: ₹250</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </main>
 
+    <footer>
+        &copy; 2025 My Restaurant
+    </footer>
 </body>
 </html>
 
