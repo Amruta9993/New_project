@@ -3,15 +3,15 @@ pipeline {
 
     environment {
         AWS_DEFAULT_REGION = 'us-east-1'
-        S3_BUCKET          = 'your-s3-bucket-name'   // replace with actual bucket
-        CLOUDFRONT_ID      = 'E31F4CDZ0T3RS2'        // replace with your distribution ID
+        S3_BUCKET          = 'newproject2025'   // replace with actual bucket
+        CLOUDFRONT_ID      = 'E13Y1I0F4522QA'        // replace with your distribution ID
     }
 
     stages {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/your-repo/frontend.git'
+                    url: 'https://github.com/Amruta9993/New_project.git'
             }
         }
 
